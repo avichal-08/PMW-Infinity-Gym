@@ -27,7 +27,7 @@ export function Footer() {
                                 <div className="mt-1 bg-zinc-900 p-2 rounded-lg border border-zinc-800"><MapPin className="h-5 w-5 text-orange-500" /></div>
                                 <div>
                                     <h4 className="font-semibold text-white mb-1">Location</h4>
-                                    <p className="text-zinc-400 text-sm">Unity City, Gole Chauraha, Kamla Complex, Kalyanpur<br />Lucknow, UP 226022</p>
+                                    <p className="text-zinc-400 text-sm">PMW INFINITY GYM, Unity City Chauraha, Kalyanpur, Lucknow<br />Lucknow, UP 226022</p>
                                     <div className="mt-2 inline-flex items-center gap-1.5 text-xs font-medium text-orange-400 bg-orange-500/10 px-2 py-1 rounded">
                                         <button onClick={handleDirectionClick} className="flex items-center justify-between gap-2 cursor-pointer text-lg hover:text-orange-300 transition-colors">
                                             <Navigation className="h-3 w-3" />Get Directions
@@ -47,6 +47,7 @@ export function Footer() {
                                 <div>
                                     <h4 className="font-semibold text-white mb-1">Contact</h4>
                                     <p className="text-zinc-400 text-sm">+91 7388107639<br /></p>
+                                    <p className="text-zinc-400 text-sm">Owner - Mr. Prince Singh<br /></p>
                                     <div onClick={handleInstaClick} className="hover:text-zinc-300 transition-colors inline-block mt-2">
                                         <Instagram className="h-5 w-5 text-white cursor-pointer" />
                                     </div>

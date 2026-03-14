@@ -3,9 +3,9 @@ import { RedirectButton } from "../RedirectButton";
 
 export function Services() {
     const topServices = [
-        { icon: Dumbbell, title: "Strength Training", desc: "Premium free weights, power racks, and specialized isolation machines." },
-        { icon: Activity, title: "Cardio & HIIT", desc: "Top-tier treadmills and assault bikes for maximum endurance." },
-        { icon: ShieldCheck, title: "Trainers", desc: "Expert guidance of 5 trainers on form, programming, and personalized diet plans." }
+        { icon: Dumbbell, title: "Strength Training", desc: "The best and biggest gym in Kalyanpur. Fully equipped for intense strength training and specialized isolation machines." },
+        { icon: Activity, title: "Cardio & HIIT", desc: "Dedicated cardio section with top-tier treadmills and assault bikes for maximum endurance." },
+        { icon: ShieldCheck, title: "Expert Coaching", desc: "5 dedicated trainers on the floor, including a specialized Ladies Trainer." }
     ];
 
     return (

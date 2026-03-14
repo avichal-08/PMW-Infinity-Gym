@@ -33,7 +33,7 @@ export function Hero() {
         <div className="relative group">
           <div className="absolute -inset-1 bg-gradient-to-r from-orange-500 to-amber-500 rounded-xl blur opacity-25 group-hover:opacity-40 transition duration-1000" />
           <img 
-            src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1470&auto=format&fit=crop" 
+            src="https://res.cloudinary.com/dcwso7qst/image/upload/v1773498972/WhatsApp_Image_2026-03-14_at_5.47.47_PM_2_wmncet.jpg" 
             alt="Gym Athlete" 
             className="relative rounded-xl border border-zinc-800 object-cover h-[500px] w-full shadow-2xl"
           />
