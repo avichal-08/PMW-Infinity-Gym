@@ -1,5 +1,4 @@
-import { ArrowRight, Star } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Star } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 
@@ -23,12 +22,12 @@ export function Hero() {
             State-of-the-art equipment, expert trainers, and a community built on hustle. Your ultimate fitness destination.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button asChild size="lg" className="bg-orange-500 hover:bg-orange-600 text-white font-semibold gap-2">
-              <Link href="/#pricing">Start Your Journey <ArrowRight className="h-4 w-4" /></Link>
-            </Button>
-            <Button asChild variant="outline" size="lg" className="bg-zinc-900 border-zinc-800 text-white hover:bg-zinc-800 hover:text-white">
-              <Link href="/services">View Facilities</Link>
-            </Button>
+            <div className="bg-orange-500 hover:bg-orange-600 text-white font-semibold gap-2 rounded-xl p-2 border border-orange-300">
+              <Link href="/pricing" className="text-lg">Start Your Journey</Link>
+            </div>
+            <div className="bg-zinc-900 p-2 text-white hover:bg-zinc-800 rounded-xl border border-zinc-800 hover:text-white">
+              <Link href="/services" className="text-lg">View Facilities</Link>
+            </div>
           </div>
         </div>
         <div className="relative group">

@@ -26,12 +26,12 @@ export function Header() {
         <nav className="hidden md:flex gap-8 text-sm font-medium text-zinc-300">
           <Link href="/services" className="hover:text-white transition-colors">Services</Link>
           <Link href="/transformations" className="hover:text-white transition-colors">Transformations</Link>
-          <Link href="/#pricing" className="hover:text-white transition-colors">Pricing</Link>
+          <Link href="/pricing" className="hover:text-white transition-colors">Pricing</Link>
           <Link href="/#contact" className="hover:text-white transition-colors">Location</Link>
         </nav>
 
         <div className="hidden md:block">
-          <Button asChild className="bg-orange-500 hover:bg-orange-600 text-white font-semibold">
+          <Button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold">
             <Link href="/login">Join Now</Link>
           </Button>
         </div>
