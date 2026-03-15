@@ -51,9 +51,6 @@ export function Header() {
             <Link href="/#contact" onClick={() => setMobileMenuOpen(false)} className="hover:text-white transition-colors">Location</Link>
           </nav>
 
-          <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold h-12">
-            <Link href="/login" onClick={() => setMobileMenuOpen(false)}>Join Now</Link>
-          </Button>
         </div>
       )}
     </header>

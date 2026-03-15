@@ -6,7 +6,7 @@ export function WhatsAppButton() {
   const whatsappUrl = `https://wa.me/${phoneNumber}`;
 
   return (
-    <div className="fixed bottom-6 right-6 md:bottom-8 md:right-8 z-50">
+    <div className="hidden md:block fixed bottom-8 right-8 z-50">
       <div className="absolute inset-0 bg-[#25D366] rounded-full animate-ping opacity-75"></div>
       <a
         href={whatsappUrl}
