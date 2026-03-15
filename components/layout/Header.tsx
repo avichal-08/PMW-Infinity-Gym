@@ -67,6 +67,14 @@ export function Header() {
             <Link href="/transformations" onClick={() => setMobileMenuOpen(false)} className="hover:text-white transition-colors active:text-orange-500">Transformations</Link>
             <Link href="/pricing" onClick={() => setMobileMenuOpen(false)} className="hover:text-white transition-colors active:text-orange-500">Pricing</Link>
             <Link href="/#contact" onClick={() => setMobileMenuOpen(false)} className="hover:text-white transition-colors active:text-orange-500">Location</Link>
+            <a
+              href="https://github.com/avichal-08"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition-colors active:text-orange-500"
+            >
+              Contact Developer
+            </a>
           </nav>
 
         </div>
