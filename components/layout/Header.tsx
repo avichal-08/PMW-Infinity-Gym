@@ -63,10 +63,10 @@ export function Header() {
       {mobileMenuOpen && (
         <div className="md:hidden absolute top-20 left-0 w-full bg-zinc-950 border-b border-zinc-800 shadow-2xl flex flex-col px-6 py-6 gap-6">
           <nav className="flex flex-col gap-4 text-base font-medium text-zinc-300">
-            <Link href="/services" onClick={() => setMobileMenuOpen(false)} className="hover:text-white transition-colors">Services</Link>
-            <Link href="/transformations" onClick={() => setMobileMenuOpen(false)} className="hover:text-white transition-colors">Transformations</Link>
-            <Link href="/pricing" onClick={() => setMobileMenuOpen(false)} className="hover:text-white transition-colors">Pricing</Link>
-            <Link href="/#contact" onClick={() => setMobileMenuOpen(false)} className="hover:text-white transition-colors">Location</Link>
+            <Link href="/services" onClick={() => setMobileMenuOpen(false)} className="hover:text-white transition-colors active:text-orange-500">Services</Link>
+            <Link href="/transformations" onClick={() => setMobileMenuOpen(false)} className="hover:text-white transition-colors active:text-orange-500">Transformations</Link>
+            <Link href="/pricing" onClick={() => setMobileMenuOpen(false)} className="hover:text-white transition-colors active:text-orange-500">Pricing</Link>
+            <Link href="/#contact" onClick={() => setMobileMenuOpen(false)} className="hover:text-white transition-colors active:text-orange-500">Location</Link>
           </nav>
 
         </div>
