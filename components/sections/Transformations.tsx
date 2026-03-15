@@ -1,9 +1,9 @@
 import { RedirectButton } from "../RedirectButton";
-import { TransformationCard } from "@/components/TransformationCard"; // Adjust this import path if needed!
+import { TransformationCard } from "@/components/TransformationCard";
+import { ScrollReveal } from "../ScrollReveal";
 
 export function Transformations() {
-    // Pass your 3 highlight transformations here. 
-    // Swap these Unsplash links with his real Cloudinary ones when he sends them!
+
     const topTransformations = [
         {
             title: "12-Week Cut",
@@ -27,29 +27,31 @@ export function Transformations() {
 
     return (
         <section id="transformations" className="py-24 border-t border-zinc-900 bg-zinc-950">
-            <div className="max-w-7xl mx-auto px-6">
+            <ScrollReveal>
+                <div className="max-w-7xl mx-auto px-6">
 
-                <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
-                    <div>
-                        <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Real Members, Real Results.</h2>
-                        <p className="text-zinc-400 max-w-lg">Consistency meets the right environment. See what our members have achieved at PMW Infinity.</p>
+                    <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+                        <div>
+                            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Real Members, Real Results.</h2>
+                            <p className="text-zinc-400 max-w-lg">Consistency meets the right environment. See what our members have achieved at PMW Infinity.</p>
+                        </div>
+                        <RedirectButton link="/transformations" text="See more results" />
                     </div>
-                    <RedirectButton link="/transformations" text="See more results" />
-                </div>
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {topTransformations.map((item, idx) => (
-                        <TransformationCard
-                            key={idx}
-                            beforeImage={item.beforeImage}
-                            afterImage={item.afterImage}
-                            title={item.title}
-                            desc={item.desc}
-                        />
-                    ))}
-                </div>
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        {topTransformations.map((item, idx) => (
+                            <TransformationCard
+                                key={idx}
+                                beforeImage={item.beforeImage}
+                                afterImage={item.afterImage}
+                                title={item.title}
+                                desc={item.desc}
+                            />
+                        ))}
+                    </div>
 
-            </div>
+                </div>
+            </ScrollReveal>
         </section>
     );
 }

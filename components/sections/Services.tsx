@@ -1,5 +1,6 @@
 import { Dumbbell, Activity, ShieldCheck } from "lucide-react";
 import { RedirectButton } from "../RedirectButton";
+import { ScrollReveal } from "@/components/ScrollReveal";
 
 export function Services() {
     const topServices = [
@@ -10,6 +11,7 @@ export function Services() {
 
     return (
         <section id="services" className="py-24 border-t border-zinc-900 bg-zinc-950/50">
+            <ScrollReveal>
             <div className="max-w-7xl mx-auto px-6">
                 <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
                     <div>
@@ -31,6 +33,7 @@ export function Services() {
                     ))}
                 </div>
             </div>
+            </ScrollReveal>
         </section>
     );
 }
