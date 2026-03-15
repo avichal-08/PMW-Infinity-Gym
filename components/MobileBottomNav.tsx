@@ -7,16 +7,13 @@ import { Home, Dumbbell, Tag, MessageCircle } from "lucide-react";
 export function MobileBottomNav() {
   const pathname = usePathname();
 
-  // The same WhatsApp configuration
   const phoneNumber = "917388107639";
-  const message = "Hi PMW Infinity! I was looking at your website and want to ask about membership plans.";
-  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+  const whatsappUrl = `https://wa.me/${phoneNumber}`;
 
   const navItems = [
     { name: "Home", href: "/", icon: Home, isExternal: false },
     { name: "Services", href: "/services", icon: Dumbbell, isExternal: false },
     { name: "Pricing", href: "/pricing", icon: Tag, isExternal: false },
-    // Replaced "Join" with WhatsApp
     { name: "WhatsApp", href: whatsappUrl, icon: MessageCircle, isExternal: true },
   ];
 
