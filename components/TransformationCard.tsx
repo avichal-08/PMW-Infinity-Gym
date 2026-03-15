@@ -34,7 +34,7 @@ export function TransformationCard({ beforeImage, afterImage, title, desc, time 
                     style={{ clipPath: `polygon(0 0, ${sliderPosition}% 0, ${sliderPosition}% 100%, 0 100%)` }}
                 >
                     <BlurImage
-                        src={beforeImage} // <--- FIXED THIS LINE: Changed afterImage to beforeImage
+                        src={beforeImage}
                         alt="Before"
                         className="absolute inset-0 w-full h-full object-cover object-center mix-blend-luminosity pointer-events-none"
                     />
