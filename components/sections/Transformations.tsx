@@ -6,10 +6,10 @@ export function Transformations() {
 
     const topTransformations = [
         {
-            title: "12-Week Cut",
+            title: "2 Years Of Intense Grind",
             desc: "The environment here pushes you to your absolute limits. The diet tracking and equipment are unmatched.",
-            beforeImage: "https://images.unsplash.com/photo-1616279967983-ec413476e824?q=80&w=400&auto=format&fit=crop&sig=1a",
-            afterImage: "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=400&auto=format&fit=crop&sig=1b"
+            beforeImage: "https://res.cloudinary.com/dcwso7qst/image/upload/c_fill,w_800,h_1000,g_auto,f_auto,q_auto/v1773578162/WhatsApp_Image_2026-03-15_at_5.05.23_PM_czmlbq.jpg",
+            afterImage: "https://res.cloudinary.com/dcwso7qst/image/upload/c_fill,w_800,h_1000,g_auto,f_auto,q_auto/v1773578163/WhatsApp_Image_2026-03-15_at_5.05.23_PM_1_svnvnr.jpg"
         },
         {
             title: "6-Month Lean Bulk",

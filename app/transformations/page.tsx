@@ -5,46 +5,53 @@ import { RedirectArrow } from '@/components/RedirectArrow';
 export default function TransformationsPage() {
 
   const allTransformations = [
-    { 
-      title: "6-Month Lean Bulk", 
+    {
+      title: "2 Years Of Intense Grind",
+      desc: "The environment here pushes you to your absolute limits. The diet tracking and equipment are unmatched.",
+      time: "2 Years",
+      beforeImage: "https://res.cloudinary.com/dcwso7qst/image/upload/c_fill,w_800,h_1000,g_auto,f_auto,q_auto/v1773578162/WhatsApp_Image_2026-03-15_at_5.05.23_PM_czmlbq.jpg",
+      afterImage: "https://res.cloudinary.com/dcwso7qst/image/upload/c_fill,w_800,h_1000,g_auto,f_auto,q_auto/v1773578163/WhatsApp_Image_2026-03-15_at_5.05.23_PM_1_svnvnr.jpg"
+    },
+    {
+      title: "6-Month Lean Bulk",
       desc: "Gained 5kg of clean muscle tissue. Focused entirely on progressive overload and calorie surplus with expert guidance.",
       time: "6 Months",
       beforeImage: "https://res.cloudinary.com/dcwso7qst/image/upload/c_fill,w_800,h_1000,g_auto,f_auto,q_auto/v1773567409/1000046779.jpg_wrjfmj.jpg",
       afterImage: "https://res.cloudinary.com/dcwso7qst/image/upload/c_fill,w_800,h_1000,g_auto,f_auto,q_auto/v1773567413/IMG_20260314_141642_pnay6u.png"
     },
-    { 
-      title: "Contest Prep", 
+    {
+      title: "Contest Prep",
       desc: "Dialed in the diet down to the gram. Stage-ready conditioning achieved in just 16 weeks.",
       time: "16 Weeks",
       beforeImage: "https://res.cloudinary.com/dcwso7qst/image/upload/c_fill,w_800,h_1000,g_auto,f_auto,q_auto/v1773567591/Screenshot_216_pj0tre.png",
       afterImage: "https://res.cloudinary.com/dcwso7qst/image/upload/c_fill,w_800,h_1000,g_auto,f_auto,q_auto/v1773567591/Screenshot_217_httt3t.png"
     },
-    { 
-      title: "Summer Shred", 
+    {
+      title: "Summer Shred",
       desc: "Dropped 12% body fat while maintaining strength. The cardio section and diet plan made all the difference.",
       time: "12 Weeks",
-      beforeImage: "https://images.unsplash.com/photo-1616279967983-ec413476e824?q=80&w=800&auto=format&fit=crop&sig=1a",
-      afterImage: "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=800&auto=format&fit=crop&sig=1b"
+      beforeImage: "https://res.cloudinary.com/dcwso7qst/image/upload/c_fill,w_800,h_1000,g_auto,f_auto,q_auto/v1773579386/Screenshot_222_hi7abg.png",
+      afterImage: "https://res.cloudinary.com/dcwso7qst/image/upload/c_fill,w_800,h_1000,g_auto,f_auto,q_auto/v1773579386/Screenshot_225_g7ujck.png"
     },
-    { 
-      title: "Total Recomp", 
+    {
+      title: "Total Recomp",
       desc: "Lost 15kg of fat and added 4kg of muscle simultaneously. A perfect execution of body recomposition.",
       time: "1 Year",
-      beforeImage: "https://images.unsplash.com/photo-1616279967983-ec413476e824?q=80&w=800&auto=format&fit=crop&sig=3a",
-      afterImage: "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=800&auto=format&fit=crop&sig=3b"
+      beforeImage: "https://res.cloudinary.com/dcwso7qst/image/upload/c_fill,w_800,h_1000,g_auto,f_auto,q_auto/v1773578163/WhatsApp_Image_2026-03-15_at_5.20.08_PM_h43zhy.jpg",
+      afterImage: "https://res.cloudinary.com/dcwso7qst/image/upload/c_fill,w_800,h_1000,g_auto,f_auto,q_auto/v1773578163/WhatsApp_Image_2026-03-15_at_5.20.00_PM_t0g2jp.jpg"
     },
-    { 
-      title: "Strength Plateau Broken", 
+    {
+      title: "Strength Plateau Broken",
       desc: "Added 40kg to the main lifts after being stuck for a year. The heavy free weights and power racks were key.",
       time: "4 Months",
-      beforeImage: "https://images.unsplash.com/photo-1616279967983-ec413476e824?q=80&w=800&auto=format&fit=crop&sig=4a",
-      afterImage: "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=800&auto=format&fit=crop&sig=4b"
+      beforeImage: "https://res.cloudinary.com/dcwso7qst/image/upload/c_fill,w_800,h_1000,g_auto,f_auto,q_auto/v1773578162/WhatsApp_Image_2026-03-15_at_5.54.47_PM1_ifkt8l.jpg",
+      afterImage: "https://res.cloudinary.com/dcwso7qst/image/upload/c_fill,w_800,h_1000,g_auto,f_auto,q_auto/v1773578162/WhatsApp_Image_2026-03-15_at_5.54.47_PM_y2y0dv.jpg"
     }
   ];
 
   return (
     <main className="min-h-screen bg-zinc-950 text-zinc-50 font-sans selection:bg-orange-500/30 pb-24">
-      
+
       <RedirectArrow />
 
       <section className="pt-32 pb-16 px-6 max-w-7xl mx-auto text-center border-b border-zinc-900">
@@ -59,7 +66,7 @@ export default function TransformationsPage() {
       <section className="py-20 px-6 max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {allTransformations.map((item, idx) => (
-            <TransformationCard 
+            <TransformationCard
               key={idx}
               title={item.title}
               desc={item.desc}
