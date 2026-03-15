@@ -18,7 +18,7 @@ export function Transformations() {
             afterImage: "https://res.cloudinary.com/dcwso7qst/image/upload/c_fill,w_800,h_1000,g_auto,f_auto,q_auto/v1773567413/IMG_20260314_141642_pnay6u.png"
         },
         {
-            title: "Contest Prep",
+            title: "10-Month Lean Bulk",
             desc: "Dialed in the diet down to the gram. Stage-ready conditioning achieved in just 16 weeks.",
             beforeImage: "https://res.cloudinary.com/dcwso7qst/image/upload/c_fill,w_800,h_1000,g_auto,f_auto,q_auto/v1773567591/Screenshot_216_pj0tre.png",
             afterImage: "https://res.cloudinary.com/dcwso7qst/image/upload/c_fill,w_800,h_1000,g_auto,f_auto,q_auto/v1773567591/Screenshot_217_httt3t.png"
