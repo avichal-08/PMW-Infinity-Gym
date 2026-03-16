@@ -39,7 +39,7 @@ export function Header() {
 
         <Link href="/" className="flex items-center gap-2" onClick={() => setMobileMenuOpen(false)}>
           <Dumbbell className="h-8 w-8 text-orange-500" />
-          <span className="text-xl font-bold tracking-tight text-white">PMW <span className="text-orange-500">INFINITY</span></span>
+          <span className="text-xl font-bold tracking-tight text-white">PMW <span className="text-orange-500">INFINITY</span><span className="text-white ml-1">GYM</span></span>
         </Link>
 
         <nav className="hidden md:flex gap-8 text-sm font-medium text-zinc-300">

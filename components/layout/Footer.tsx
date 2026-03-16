@@ -47,6 +47,7 @@ export function Footer() {
                                 <div>
                                     <h4 className="font-semibold text-white mb-1">Contact</h4>
                                     <p className="text-zinc-400 text-sm">+91 7388107639<br /></p>
+                                    <p className="text-zinc-400 text-sm">+91 6392876902<br /></p>
                                     <p className="text-zinc-400 text-sm">Owner - Mr. Prince Singh<br /></p>
                                     <div onClick={handleInstaClick} className="hover:text-zinc-300 transition-colors inline-block mt-2">
                                         <Instagram className="h-5 w-5 text-white cursor-pointer" />

@@ -79,7 +79,7 @@ export default function Services() {
 
             <section className="pt-20 px-6 max-w-7xl mx-auto">
                 <div className="text-center mb-12">
-                    <h2 className="text-3xl font-bold text-white mb-2">Inside <span className="text-orange-500">PMW Infinity</span></h2>
+                    <h2 className="text-3xl font-bold text-white mb-2">Inside <span className="text-orange-500">PMW Infinity Gym</span></h2>
                     <p className="text-zinc-400">Take a look at our fully equipped training facility.</p>
                 </div>
 
